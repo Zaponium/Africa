@@ -1,5 +1,11 @@
 ﻿capital = 126
 
+puppet = EGY
+puppet = SUD
+puppet = TZN
+puppet = ZAM
+puppet = ZIM
+
 if = {
 	limit = {
 		NOT = {
@@ -153,7 +159,6 @@ add_ideas = {
 	ENG_the_war_to_end_all_wars
 	george_v
 }
-	
 
 set_convoys = 800
 
