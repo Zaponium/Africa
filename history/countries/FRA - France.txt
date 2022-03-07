@@ -1,6 +1,7 @@
 ﻿capital = 16
 
 puppet = MRT
+puppet = CHA
 
 if = {
 	limit = {
