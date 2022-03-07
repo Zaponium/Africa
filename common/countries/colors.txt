@@ -334,8 +334,8 @@ LBA = {
 }
 
 EGY = {
-	color = rgb { 230 230 70 }
-	color_ui = rgb { 230 230 70 }
+	color = rgb { 201 56 93 }
+	color_ui = rgb { 255 73 121 }
 }
 
 PAL = {
@@ -427,8 +427,8 @@ MAN = {
 	color_ui = rgb { 255 120 71 }
 }
 ANG = {
-	color = rgb { 37 140 61 }
-	color_ui = rgb { 37 140 61 }
+	color = rgb { 39 116 70 }
+	color_ui = rgb { 51 151 91 }
 }
 
 COG = {
@@ -436,16 +436,16 @@ COG = {
 	color_ui = rgb { 152 159 209 }
 }
 MZB = {
-	color = rgb { 112 62 90 }
-	color_ui = rgb { 112 62 90 }
+	color = rgb { 39 116 70 }
+	color_ui = rgb { 51 151 91 }
 }
 KEN = {
 	color = rgb { 145 103 14 }
 	color_ui = rgb { 145 103 14 }
 }
 ZIM = {
-	color = rgb { 7 7 239 }
-	color_ui = rgb { 7 7 239 }
+	color = rgb { 201 56 93 }
+	color_ui = rgb { 255 73 121 }
 }
 BOT = {
 	color = rgb { 11 132 112 }
@@ -814,4 +814,40 @@ MEL = {
 CHU = {
 	color = rgb { 191 128 64 }
 	color_ui = rgb { 134 89 45 }
+}
+SUD = {
+	color = rgb { 201 56 93 }
+	color_ui = rgb { 255 73 121 }
+}
+TZN = {
+	color = rgb { 201 56 93 }
+	color_ui = rgb { 255 73 121 }
+}
+ZAM = {
+	color = rgb { 201 56 93 }
+	color_ui = rgb { 255 73 121 }
+}
+MRT = {
+	color = rgb { 57 113 228 }
+	color_ui = rgb { 74 147 255 }
+}
+CHA = {
+	color = rgb { 57 113 228 }
+	color_ui = rgb { 74 147 255 }
+}
+TUN = {
+	color = rgb { 57 113 228 }
+	color_ui = rgb { 74 147 255 }
+}
+MOR = {
+	color = rgb { 57 113 228 }
+	color_ui = rgb { 74 147 255 }
+}
+SEN = {
+	color = rgb { 39 116 70 }
+	color_ui = rgb { 51 151 91 }
+}
+MAD = {
+	color = rgb { 57 113 228 }
+	color_ui = rgb { 74 147 255 }
 }
