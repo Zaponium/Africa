@@ -329,8 +329,8 @@ XSM = {
 }
 
 LBA = {
-	color = rgb { 200 180 90 }
-	color_ui = rgb { 200 180 90 }
+	color = rgb { 67 127 63 }
+	color_ui = rgb { 87 165 82 }
 }
 
 EGY = {
@@ -431,10 +431,10 @@ ANG = {
 	color_ui = rgb { 51 151 91 }
 }
 
-COG = {
-	color = rgb { 152 159 209 }
-	color_ui = rgb { 152 159 209 }
-}
+COG = { 
+color 	 = rgb { 193 171 8  }
+color_ui = rgb { 251 222 10 }
+	  }
 MZB = {
 	color = rgb { 39 116 70 }
 	color_ui = rgb { 51 151 91 }
@@ -851,3 +851,11 @@ MAD = {
 	color = rgb { 57 113 228 }
 	color_ui = rgb { 74 147 255 }
 }
+SOM = {
+	color = rgb { 67 127 63 }
+	color_ui = rgb { 87 165 82 }
+}
+BRD = { 
+color 	 = rgb { 193 171 8  }
+color_ui = rgb { 251 222 10 }
+	  }
