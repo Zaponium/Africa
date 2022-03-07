@@ -1,5 +1,7 @@
 ﻿capital = 16
 
+puppet = MRT
+
 if = {
 	limit = {
 		NOT = {
