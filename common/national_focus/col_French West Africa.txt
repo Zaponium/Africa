@@ -1,0 +1,1115 @@
+focus_tree = {
+id = French_west_africa
+    country = {
+    modifier = {
+    add = 100
+    tag = MRT
+    }
+    }
+
+focus = {
+    id = col_FWA_fre1
+    icon = X
+
+    cost = 10
+
+    x = 5
+    y = 0
+
+	mutually_exclusive = {
+        focus = col_FWA_pup1
+    }
+
+    available_if_capitulated = no
+
+    completion_reward = {
+        add_political_power = 100
+        add_ideas = kung
+		add_stability = 0.05
+		add_war_support = 0.05
+   }
+   
+    ai_will_do = {
+        factor = 1
+        
+    }
+} 
+
+focus = {
+    id = col_FWA_fre2
+    icon = X
+
+    cost = 10
+
+    x = 0
+    y = 1
+
+	relative_position_id = col_FWA_fre1
+	
+	prerequisite = {
+	focus = col_FWA_fre1
+	}
+   
+	available_if_capitulated = no
+
+    completion_reward = {
+       
+   }
+   
+    ai_will_do = {
+        factor = 1
+        
+    }
+} 
+
+focus = {
+    id = col_FWA_fre3
+    icon = X
+
+    cost = 10
+
+    x = 0
+    y = 2
+
+	relative_position_id = col_FWA_fre1
+	
+	prerequisite = {
+	focus = col_FWA_fre2
+	}
+   
+	available_if_capitulated = no
+
+    completion_reward = {
+       
+   }
+   
+    ai_will_do = {
+        factor = 1
+        
+    }
+} 
+
+focus = {
+    id = col_FWA_fre4
+    icon = X
+
+    cost = 10
+
+    x = 0
+    y = 3
+
+	relative_position_id = col_FWA_fre1
+	
+	prerequisite = {
+	focus = col_FWA_fre3
+	}
+   
+	available_if_capitulated = no
+
+    completion_reward = {
+       
+   }
+   
+    ai_will_do = {
+        factor = 1
+        
+    }
+} 
+
+focus = {
+    id = col_FWA_fre5
+    icon = X
+
+    cost = 10
+
+    x = -2
+    y = 4
+
+	relative_position_id = col_FWA_fre1
+	
+	prerequisite = {
+	focus = col_FWA_fre4
+	}
+   
+	available_if_capitulated = no
+
+    completion_reward = {
+       
+   }
+   
+    ai_will_do = {
+        factor = 1
+        
+    }
+} 
+
+focus = {
+    id = col_FWA_fre6
+    icon = X
+
+    cost = 10
+
+    x = 0
+    y = 4
+
+	relative_position_id = col_FWA_fre1
+	
+	prerequisite = {
+	focus = col_FWA_fre4
+	}
+   
+	available_if_capitulated = no
+
+    completion_reward = {
+       
+   }
+   
+    ai_will_do = {
+        factor = 1
+        
+    }
+} 
+
+focus = {
+    id = col_FWA_fre7
+    icon = X
+
+    cost = 10
+
+    x = 2
+    y = 4
+
+	relative_position_id = col_FWA_fre1
+	
+	prerequisite = {
+	focus = col_FWA_fre4
+	}
+   
+	available_if_capitulated = no
+
+    completion_reward = {
+       
+   }
+   
+    ai_will_do = {
+        factor = 1
+        
+    }
+} 
+
+focus = {
+    id = col_FWA_fre8
+    icon = X
+
+    cost = 10
+
+    x = 0
+    y = 5
+
+	relative_position_id = col_FWA_fre1
+	
+	prerequisite = { focus = col_FWA_fre5 }
+	
+	prerequisite = { focus = col_FWA_fre6 }
+	
+	prerequisite = { focus = col_FWA_fre7 }
+	
+	available_if_capitulated = no
+
+    completion_reward = {
+       
+   }
+   
+    ai_will_do = {
+        factor = 1
+        
+    }
+} 
+
+
+
+
+
+
+
+
+
+
+
+focus = {
+    id = col_FWA_pup1
+    icon = X
+
+    cost = 10
+
+    x = 20
+    y = 0
+	
+	relative_position_id = col_FWA_fre1
+
+	mutually_exclusive = {
+        focus = col_FWA_fre1
+    }
+
+    available_if_capitulated = no
+
+    completion_reward = {
+        add_political_power = 100
+		add_stability = 0.1
+		add_war_support = 0.1
+		
+   }
+   
+    ai_will_do = {
+        factor = 1
+        
+    }
+} 
+
+focus = {
+    id = col_FWA_pup2
+    icon = X
+
+    cost = 10
+
+    x = 0
+    y = 1
+
+	relative_position_id = col_FWA_pup1
+	
+	prerequisite = {
+	focus = col_FWA_pup1
+	}
+	
+	available_if_capitulated = no
+
+    completion_reward = {
+        
+   }
+   
+    ai_will_do = {
+        factor = 1
+        
+    }
+} 
+
+focus = {
+    id = col_FWA_pup3
+    icon = X
+
+    cost = 10
+
+    x = -6
+    y = 2
+
+	relative_position_id = col_FWA_pup1
+	
+	prerequisite = {
+	focus = col_FWA_pup2
+	}
+	
+	mutually_exclusive = {
+        focus = col_FWA_pup15
+    }
+	
+	available_if_capitulated = no
+
+    completion_reward = {
+        
+   }
+   
+    ai_will_do = {
+        factor = 1
+        
+    }
+} 
+
+focus = {
+    id = col_FWA_pup4
+    icon = X
+
+    cost = 10
+
+    x = -6
+    y = 3
+
+	relative_position_id = col_FWA_pup1
+	
+	prerequisite = {
+	focus = col_FWA_pup3
+	}
+	
+	available_if_capitulated = no
+
+    completion_reward = {
+        
+   }
+   
+    ai_will_do = {
+        factor = 1
+        
+    }
+} 
+
+focus = {
+    id = col_FWA_pup5
+    icon = X
+
+    cost = 10
+
+    x = -8
+    y = 4
+
+	relative_position_id = col_FWA_pup1
+	
+	prerequisite = {
+	focus = col_FWA_pup4
+	}
+	
+	available_if_capitulated = no
+
+    completion_reward = {
+        
+   }
+   
+    ai_will_do = {
+        factor = 1
+        
+    }
+} 
+
+focus = {
+    id = col_FWA_pup6
+    icon = X
+
+    cost = 10
+
+    x = -4
+    y = 4
+
+	relative_position_id = col_FWA_pup1
+	
+	prerequisite = {
+	focus = col_FWA_pup4
+	}
+	
+	available_if_capitulated = no
+
+    completion_reward = {
+        
+   }
+   
+    ai_will_do = {
+        factor = 1
+        
+    }
+} 
+
+focus = {
+    id = col_FWA_pup7
+    icon = X
+
+    cost = 10
+
+    x = -6
+    y = 5
+
+	relative_position_id = col_FWA_pup1
+	
+	prerequisite = {
+	focus = col_FWA_pup4
+	}
+	
+	available_if_capitulated = no
+
+    completion_reward = {
+        
+   }
+   
+    ai_will_do = {
+        factor = 1
+        
+    }
+} 
+
+focus = {
+    id = col_FWA_pup8
+    icon = X
+
+    cost = 10
+
+    x = -8
+    y = 6
+
+	relative_position_id = col_FWA_pup1
+	
+	prerequisite = {
+	focus = col_FWA_pup7
+	}
+	
+	available_if_capitulated = no
+
+    completion_reward = {
+        
+   }
+   
+    ai_will_do = {
+        factor = 1
+        
+    }
+} 
+
+focus = {
+    id = col_FWA_pup9
+    icon = X
+
+    cost = 10
+
+    x = -4
+    y = 6
+
+	relative_position_id = col_FWA_pup1
+	
+	prerequisite = {
+	focus = col_FWA_pup7
+	}
+	
+	available_if_capitulated = no
+
+    completion_reward = {
+        
+   }
+   
+    ai_will_do = {
+        factor = 1
+        
+    }
+} 
+
+focus = {
+    id = col_FWA_pup10
+    icon = X
+
+    cost = 10
+
+    x = -6
+    y = 7
+
+	relative_position_id = col_FWA_pup1
+	
+	prerequisite = {
+	focus = col_FWA_pup7
+	}
+	
+	available_if_capitulated = no
+
+    completion_reward = {
+        
+   }
+   
+    ai_will_do = {
+        factor = 1
+        
+    }
+} 
+
+focus = {
+    id = col_FWA_pup11
+    icon = X
+
+    cost = 10
+
+    x = -8
+    y = 8
+
+	relative_position_id = col_FWA_pup1
+	
+	prerequisite = {
+	focus = col_FWA_pup10
+	}
+	
+	available_if_capitulated = no
+
+    completion_reward = {
+        
+   }
+   
+    ai_will_do = {
+        factor = 1
+        
+    }
+} 
+
+focus = {
+    id = col_FWA_pup12
+    icon = X
+
+    cost = 10
+
+    x = -4
+    y = 8
+
+	relative_position_id = col_FWA_pup1
+	
+	prerequisite = {
+	focus = col_FWA_pup10
+	}
+	
+	available_if_capitulated = no
+
+    completion_reward = {
+        
+   }
+   
+    ai_will_do = {
+        factor = 1
+        
+    }
+} 
+
+focus = {
+    id = col_FWA_pup13
+    icon = X
+
+    cost = 10
+
+    x = -6
+    y = 9
+
+	relative_position_id = col_FWA_pup1
+	
+	prerequisite = {
+	focus = col_FWA_pup10
+	}
+	
+	mutually_exclusive = { focus = col_FWA_pup25 }
+	
+	available_if_capitulated = no
+
+    completion_reward = {
+        
+   }
+   
+    ai_will_do = {
+        factor = 1
+        
+    }
+} 
+
+focus = {
+    id = col_FWA_pup14
+    icon = X
+
+    cost = 10
+
+    x = 0
+    y = 10
+
+	relative_position_id = col_FWA_pup1
+	
+	prerequisite = {
+	focus = col_FWA_pup13
+	}
+	
+	prerequisite = {
+	focus = col_FWA_pup25
+	}
+	
+	available_if_capitulated = no
+
+    completion_reward = {
+        
+   }
+   
+    ai_will_do = {
+        factor = 1
+        
+    }
+} 
+
+focus = {
+    id = col_FWA_pup15
+    icon = X
+
+    cost = 10
+
+    x = 6
+    y = 2
+
+	relative_position_id = col_FWA_pup1
+	
+	prerequisite = {
+	focus = col_FWA_pup2
+	}
+	
+	mutually_exclusive = {
+        focus = col_FWA_pup3
+    }
+	
+	available_if_capitulated = no
+
+    completion_reward = {
+        
+   }
+   
+    ai_will_do = {
+        factor = 1
+        
+    }
+} 
+
+focus = {
+    id = col_FWA_pup16
+    icon = X
+
+    cost = 10
+
+    x = 6
+    y = 3
+
+	relative_position_id = col_FWA_pup1
+	
+	prerequisite = {
+	focus = col_FWA_pup15
+	}
+	
+	available_if_capitulated = no
+
+    completion_reward = {
+        
+   }
+   
+    ai_will_do = {
+        factor = 1
+        
+    }
+} 
+
+focus = {
+    id = col_FWA_pup17
+    icon = X
+
+    cost = 10
+
+    x = 4
+    y = 4
+
+	relative_position_id = col_FWA_pup1
+	
+	prerequisite = {
+	focus = col_FWA_pup16
+	}
+	
+	available_if_capitulated = no
+
+    completion_reward = {
+        
+   }
+   
+    ai_will_do = {
+        factor = 1
+        
+    }
+} 
+
+focus = {
+    id = col_FWA_pup18
+    icon = X
+
+    cost = 10
+
+    x = 8
+    y = 4
+
+	relative_position_id = col_FWA_pup1
+	
+	prerequisite = {
+	focus = col_FWA_pup16
+	}
+	
+	available_if_capitulated = no
+
+    completion_reward = {
+        
+   }
+   
+    ai_will_do = {
+        factor = 1
+        
+    }
+} 
+
+focus = {
+    id = col_FWA_pup19
+    icon = X
+
+    cost = 10
+
+    x = 6
+    y = 5
+
+	relative_position_id = col_FWA_pup1
+	
+	prerequisite = {
+	focus = col_FWA_pup16
+	}
+	
+	available_if_capitulated = no
+
+    completion_reward = {
+        
+   }
+   
+    ai_will_do = {
+        factor = 1
+        
+    }
+} 
+
+focus = {
+    id = col_FWA_pup20
+    icon = X
+
+    cost = 10
+
+    x = 4
+    y = 6
+
+	relative_position_id = col_FWA_pup1
+	
+	prerequisite = {
+	focus = col_FWA_pup19
+	}
+	
+	available_if_capitulated = no
+
+    completion_reward = {
+        
+   }
+   
+    ai_will_do = {
+        factor = 1
+        
+    }
+} 
+
+focus = {
+    id = col_FWA_pup21
+    icon = X
+
+    cost = 10
+
+    x = 8
+    y = 6
+
+	relative_position_id = col_FWA_pup1
+	
+	prerequisite = {
+	focus = col_FWA_pup19
+	}
+	
+	available_if_capitulated = no
+
+    completion_reward = {
+        
+   }
+   
+    ai_will_do = {
+        factor = 1
+        
+    }
+} 
+
+focus = {
+    id = col_FWA_pup22
+    icon = X
+
+    cost = 10
+
+    x = 6
+    y = 7
+
+	relative_position_id = col_FWA_pup1
+	
+	prerequisite = {
+	focus = col_FWA_pup19
+	}
+	
+	available_if_capitulated = no
+
+    completion_reward = {
+        
+   }
+   
+    ai_will_do = {
+        factor = 1
+        
+    }
+} 
+
+focus = {
+    id = col_FWA_pup23
+    icon = X
+
+    cost = 10
+
+    x = 4
+    y = 8
+
+	relative_position_id = col_FWA_pup1
+	
+	prerequisite = {
+	focus = col_FWA_pup22
+	}
+	
+	available_if_capitulated = no
+
+    completion_reward = {
+        
+   }
+   
+    ai_will_do = {
+        factor = 1
+        
+    }
+} 
+
+focus = {
+    id = col_FWA_pup24
+    icon = X
+
+    cost = 10
+
+    x = 8
+    y = 8
+
+	relative_position_id = col_FWA_pup1
+	
+	prerequisite = {
+	focus = col_FWA_pup22
+	}
+	
+	available_if_capitulated = no
+
+    completion_reward = {
+        
+   }
+   
+    ai_will_do = {
+        factor = 1
+        
+    }
+} 
+
+focus = {
+    id = col_FWA_pup25
+    icon = X
+
+    cost = 10
+
+    x = 6
+    y = 9
+
+	relative_position_id = col_FWA_pup1
+	
+	prerequisite = {
+	focus = col_FWA_pup22
+	}
+	
+	mutually_exclusive = { focus = col_FWA_pup13 }
+	
+	available_if_capitulated = no
+
+    completion_reward = {
+        
+   }
+   
+    ai_will_do = {
+        factor = 1
+        
+    }
+} 
+
+focus = {
+    id = col_FWA_pup26
+    icon = X
+
+    cost = 10
+
+    x = -3
+    y = 11
+
+	relative_position_id = col_FWA_pup1
+	
+	prerequisite = {
+	focus = col_FWA_pup14
+	}
+	
+	available_if_capitulated = no
+
+    completion_reward = {
+        
+   }
+   
+    ai_will_do = {
+        factor = 1
+        
+    }
+} 
+
+focus = {
+    id = col_FWA_pup27
+    icon = X
+
+    cost = 10
+
+    x = 0
+    y = 11
+
+	relative_position_id = col_FWA_pup1
+	
+	prerequisite = {
+	focus = col_FWA_pup14
+	}
+	
+	available_if_capitulated = no
+
+    completion_reward = {
+        
+   }
+   
+    ai_will_do = {
+        factor = 1
+        
+    }
+} 
+
+focus = {
+    id = col_FWA_pup28
+    icon = X
+
+    cost = 10
+
+    x = 3
+    y = 11
+
+	relative_position_id = col_FWA_pup1
+	
+	prerequisite = {
+	focus = col_FWA_pup14
+	}
+	
+	available_if_capitulated = no
+
+    completion_reward = {
+        
+   }
+   
+    ai_will_do = {
+        factor = 1
+        
+    }
+} 
+
+focus = {
+    id = col_FWA_pup29
+    icon = X
+
+    cost = 10
+
+    x = 1
+    y = 12
+
+	relative_position_id = col_FWA_pup1
+	
+	prerequisite = {
+	focus = col_FWA_pup27
+	}
+	
+	available_if_capitulated = no
+
+    completion_reward = {
+        
+   }
+   
+    ai_will_do = {
+        factor = 1
+        
+    }
+} 
+
+focus = {
+    id = col_FWA_pup30
+    icon = X
+
+    cost = 10
+
+    x = -1
+    y = 12
+
+	relative_position_id = col_FWA_pup1
+	
+	prerequisite = {
+	focus = col_FWA_pup27
+	}
+	
+	available_if_capitulated = no
+
+    completion_reward = {
+        
+   }
+   
+    ai_will_do = {
+        factor = 1
+        
+    }
+} 
+
+focus = {
+    id = col_FWA_pup31
+    icon = X
+
+    cost = 10
+
+    x = 0
+    y = 13
+
+	relative_position_id = col_FWA_pup1
+	
+	prerequisite = {
+	focus = col_FWA_pup27
+	}
+	
+	available_if_capitulated = no
+
+    completion_reward = {
+        
+   }
+   
+    ai_will_do = {
+        factor = 1
+        
+    }
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
