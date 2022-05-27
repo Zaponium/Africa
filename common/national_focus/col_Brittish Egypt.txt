@@ -1,0 +1,627 @@
+focus_tree = {
+id = british_egypt
+    country = {
+	modifier = {
+	add = 100
+	tag = EGY
+	}
+	}
+	
+focus = {
+    id = COL_EGY_treaty1
+    icon = X
+
+    cost = 3
+
+    x = 25
+    y = 1
+
+    available_if_capitulated = no
+
+    completion_reward = {
+        add_political_power = 100
+    }
+    ai_will_do = {
+        factor = 1
+    }
+  } 
+focus = {
+    id = COL_EGY_treaty2
+    icon = X
+
+    cost = 30
+
+    x = 0
+    y = 1
+	relative_position_id = COL_EGY_treaty1
+	
+	prerequisite = {
+        focus = COL_EGY_treaty1
+    }
+	
+    available_if_capitulated = no
+
+    completion_reward = {
+        add_political_power = 100
+    }
+    ai_will_do = {
+        factor = 1
+    }
+  }
+focus = {
+    id = COL_EGY_treatyidea1
+    icon = X
+
+    cost = 0
+
+    x = -3
+    y = 1
+	relative_position_id = COL_EGY_treaty2
+	
+	prerequisite = {
+        focus = COL_EGY_treaty2
+    }
+	
+    available_if_capitulated = no
+	available = {
+	always = no
+	}
+    completion_reward = {
+        add_political_power = 100
+    }
+    ai_will_do = {
+        factor = 1
+    }
+  }
+focus = {
+    id = COL_EGY_treatyidea2
+    icon = X
+
+    cost = 0
+
+    x = -1
+    y = 1
+	relative_position_id = COL_EGY_treaty2
+	
+	prerequisite = {
+        focus = COL_EGY_treaty2
+    }
+	
+    available_if_capitulated = no
+	available = {
+	always = no
+	}
+    completion_reward = {
+        add_political_power = 100
+    }
+    ai_will_do = {
+        factor = 1
+    }
+  }
+focus = {
+    id = COL_EGY_treatyidea3
+    icon = X
+
+    cost = 0
+
+    x = 1
+    y = 1
+	relative_position_id = COL_EGY_treaty2
+	
+	prerequisite = {
+        focus = COL_EGY_treaty2
+    }
+	
+    available_if_capitulated = no
+	available = {
+	always = no
+	}
+    completion_reward = {
+        add_political_power = 100
+    }
+    ai_will_do = {
+        factor = 1
+    }
+  }
+focus = {
+    id = COL_EGY_treatyidea4
+    icon = X
+
+    cost = 0
+
+    x = 3
+    y = 1
+	relative_position_id = COL_EGY_treaty2
+	
+	prerequisite = {
+        focus = COL_EGY_treaty2
+    }
+	
+    available_if_capitulated = no
+	available = {
+	always = no
+	}
+    completion_reward = {
+        add_political_power = 100
+    }
+    ai_will_do = {
+        factor = 1
+    }
+  }
+focus = {
+    id = COL_EGY_treaty3
+    icon = X
+
+    cost = 4
+
+    x = -4
+    y = 2
+	relative_position_id = COL_EGY_treaty2
+	
+	prerequisite = {
+        focus = COL_EGY_treaty2
+    }
+	
+	mutually_exclusive = {
+        focus = COL_EGY_treaty4
+    }
+	
+    available_if_capitulated = no
+
+    completion_reward = {
+        add_political_power = 100
+    }
+    ai_will_do = {
+        factor = 1
+    }
+  }
+
+focus = {
+    id = COL_EGY_treaty4
+    icon = X
+
+    cost = 4
+
+    x = 4
+    y = 2
+	relative_position_id = COL_EGY_treaty2
+	
+	prerequisite = {
+        focus = COL_EGY_treaty2
+    }
+	
+	mutually_exclusive = {
+        focus = COL_EGY_treaty3
+    }
+	
+    available_if_capitulated = no
+
+    completion_reward = {
+        add_political_power = 100
+    }
+    ai_will_do = {
+        factor = 1
+    }
+  }
+  
+  ###Under Treaty 3###
+  
+  
+  
+  
+  focus = {
+    id = COL_EGY_prepare1
+    icon = X
+
+    cost = 0
+
+    x = -1
+    y = 1
+	relative_position_id = COL_EGY_treaty3
+	
+	prerequisite = {
+        focus = COL_EGY_treaty3
+    }
+	
+    available_if_capitulated = no
+	available = {
+	always = no
+	}
+    completion_reward = {
+        add_political_power = 100
+    }
+    ai_will_do = {
+        factor = 1
+    }
+  }
+  focus = {
+    id = COL_EGY_prepare1.5
+    icon = X
+
+    cost = 0
+
+    x = -1
+    y = 1
+	relative_position_id = COL_EGY_prepare1
+	
+	prerequisite = {
+        focus = COL_EGY_prepare1
+    }
+	
+    available_if_capitulated = no
+	available = {
+	always = no
+	}
+    completion_reward = {
+        add_political_power = 100
+    }
+    ai_will_do = {
+        factor = 1
+    }
+  }
+  focus = {
+    id = COL_EGY_prepare2
+    icon = X
+
+    cost = 0
+
+    x = 0
+    y = 2
+	relative_position_id = COL_EGY_prepare1
+	
+	prerequisite = {
+        focus = COL_EGY_prepare1
+    }
+	
+    available_if_capitulated = no
+	available = {
+	always = no
+	}
+    completion_reward = {
+        add_political_power = 100
+    }
+    ai_will_do = {
+        factor = 1
+    }
+  }
+  focus = {
+    id = COL_EGY_prepare3
+    icon = X
+
+    cost = 0
+
+    x = -1
+    y = 3
+	relative_position_id = COL_EGY_prepare1
+	
+	prerequisite = {
+        focus = COL_EGY_prepare2
+    }
+	
+    available_if_capitulated = no
+	available = {
+	always = no
+	}
+    completion_reward = {
+        add_political_power = 100
+    }
+    ai_will_do = {
+        factor = 1
+    }
+  }
+  focus = {
+    id = COL_EGY_prepare4
+    icon = X
+
+    cost = 0
+
+    x = 0
+    y = 4
+	relative_position_id = COL_EGY_prepare1
+	
+	prerequisite = {
+        focus = COL_EGY_prepare2
+    }
+	
+    available_if_capitulated = no
+	available = {
+	always = no
+	}
+    completion_reward = {
+        add_political_power = 100
+    }
+    ai_will_do = {
+        factor = 1
+    }
+  }
+  focus = {
+    id = COL_EGY_prepare5
+    icon = X
+
+    cost = 0
+
+    x = -1
+    y = 5
+	relative_position_id = COL_EGY_prepare1
+	
+	prerequisite = {
+        focus = COL_EGY_prepare4
+    }
+	
+    available_if_capitulated = no
+	available = {
+	always = no
+	}
+    completion_reward = {
+        add_political_power = 100
+    }
+    ai_will_do = {
+        factor = 1
+    }
+  }
+  focus = {
+    id = COL_EGY_prepare6
+    icon = X
+
+    cost = 0
+
+    x = 0
+    y = 6
+	relative_position_id = COL_EGY_prepare1
+	
+	prerequisite = {
+        focus = COL_EGY_prepare4
+    }
+	
+    available_if_capitulated = no
+	available = {
+	always = no
+	}
+    completion_reward = {
+        add_political_power = 100
+    }
+    ai_will_do = {
+        factor = 1
+    }
+  }
+    ###Under Treaty 4###
+  
+  
+  
+  
+  focus = {
+    id = COL_EGY_support1
+    icon = X
+
+    cost = 0
+
+    x = 1
+    y = 1
+	relative_position_id = COL_EGY_treaty4
+	
+	prerequisite = {
+        focus = COL_EGY_treaty4
+    }
+	
+    available_if_capitulated = no
+	available = {
+	always = no
+	}
+    completion_reward = {
+        add_political_power = 100
+    }
+    ai_will_do = {
+        factor = 1
+    }
+  }
+  focus = {
+    id = COL_EGY_support1.5
+    icon = X
+
+    cost = 0
+
+    x = 1
+    y = 1
+	relative_position_id = COL_EGY_support1
+	
+	prerequisite = {
+        focus = COL_EGY_support1
+    }
+	
+    available_if_capitulated = no
+	available = {
+	always = no
+	}
+    completion_reward = {
+        add_political_power = 100
+    }
+    ai_will_do = {
+        factor = 1
+    }
+  }
+  focus = {
+    id = COL_EGY_support2
+    icon = X
+
+    cost = 0
+
+    x = 0
+    y = 2
+	relative_position_id = COL_EGY_support1
+	
+	prerequisite = {
+        focus = COL_EGY_support1
+    }
+	
+    available_if_capitulated = no
+	available = {
+	always = no
+	}
+    completion_reward = {
+        add_political_power = 100
+    }
+    ai_will_do = {
+        factor = 1
+    }
+  }
+  focus = {
+    id = COL_EGY_support3
+    icon = X
+
+    cost = 0
+
+    x = 1
+    y = 3
+	relative_position_id = COL_EGY_support1
+	
+	prerequisite = {
+        focus = COL_EGY_support2
+    }
+	
+    available_if_capitulated = no
+	available = {
+	always = no
+	}
+    completion_reward = {
+        add_political_power = 100
+    }
+    ai_will_do = {
+        factor = 1
+    }
+  }
+  focus = {
+    id = COL_EGY_support4
+    icon = X
+
+    cost = 0
+
+    x = 0
+    y = 4
+	relative_position_id = COL_EGY_support1
+	
+	prerequisite = {
+        focus = COL_EGY_support2
+    }
+	
+    available_if_capitulated = no
+	available = {
+	always = no
+	}
+    completion_reward = {
+        add_political_power = 100
+    }
+    ai_will_do = {
+        factor = 1
+    }
+  }
+  focus = {
+    id = COL_EGY_support5
+    icon = X
+
+    cost = 0
+
+    x = 1
+    y = 5
+	relative_position_id = COL_EGY_support1
+	
+	prerequisite = {
+        focus = COL_EGY_support4
+    }
+	
+    available_if_capitulated = no
+	available = {
+	always = no
+	}
+    completion_reward = {
+        add_political_power = 100
+    }
+    ai_will_do = {
+        factor = 1
+    }
+  }
+  focus = {
+    id = COL_EGY_support6
+    icon = X
+
+    cost = 0
+
+    x = 0
+    y = 6
+	relative_position_id = COL_EGY_support1
+	
+	prerequisite = {
+        focus = COL_EGY_support4
+    }
+	
+    available_if_capitulated = no
+	available = {
+	always = no
+	}
+    completion_reward = {
+        add_political_power = 100
+    }
+    ai_will_do = {
+        factor = 1
+    }
+  }
+  
+  focus = {
+    id = COL_EGY_support5
+    icon = X
+
+    cost = 0
+
+    x = 1
+    y = 5
+	relative_position_id = COL_EGY_support1
+	
+	prerequisite = {
+        focus = COL_EGY_support4
+    }
+	
+    available_if_capitulated = no
+	available = {
+	always = no
+	}
+    completion_reward = {
+        add_political_power = 100
+    }
+    ai_will_do = {
+        factor = 1
+    }
+  }
+  focus = {
+    id = COL_EGY_fate
+    icon = X
+
+    cost = 0
+
+    x = 0
+    y = 11
+	relative_position_id = COL_EGY_treaty1
+	
+	prerequisite = {
+        focus = COL_EGY_support6
+		focus = COL_EGY_prepare6
+    }
+	
+    available_if_capitulated = no
+	available = {
+	always = no
+	}
+    completion_reward = {
+        add_political_power = 100
+    }
+    ai_will_do = {
+        factor = 1
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+}
+  
